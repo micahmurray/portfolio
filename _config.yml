@@ -1,9 +1,17 @@
-# Site settings
-title: Data Science Portfolio
-author:
-  name: Micah Murray
-  email: mdvmurray@gmail.com
+title: My Data Science Portfolio
+email: mdvmurray@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A portfolio showcasing my projects and skills in data science, machine learning, and AI.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://micahmurray.github.io" # the base hostname & protocol for your site
 
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Build settings
-remote_theme: jekyll/midnight
+markdown: kramdown
+highlighter: rouge
