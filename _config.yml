@@ -1,2 +1,9 @@
-title: YOUR NAME
-theme: jeykll-theme-minimal
+# Site settings
+title: Data Science Portfolio
+author:
+  name: Micah Murray
+  email: mdvmurray@gmail.com
+
+
+# Build settings
+remote_theme: jekyll/midnight
